@@ -4,7 +4,7 @@
     função e é executada posteriormente dentro dessa função.) para cada elemento.
 */
 
-// Criação do array 
+// Criação do array - Nomes
 let listaDeNomes = [
     'Nathalia', 'Anna',
     'Giovanni', 'Vitor',
