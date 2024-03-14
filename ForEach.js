@@ -9,10 +9,10 @@ let listaDeNomes = [
     'Nathalia', 'Anna',
     'Giovanni', 'Vitor',
     'Gabriela', 'Pablo'
-]
+];
 //console.log(listaDeNomes); Realizado para verificação do array 
 
-console.log("------------ Exemplo 1 ------------")
+console.log("------------ Exemplo 1 ------------"); // Realizado somente para separar
 
 /* Método forEach 1
 
@@ -27,7 +27,7 @@ listaDeNomes.forEach(element => {
 });
 
 
-console.log("------------ Exemplo 2 ------------")
+console.log("------------ Exemplo 2 ------------");
 /* Método forEach 2
     
     array.forEach(function(element) {
