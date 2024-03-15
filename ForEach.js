@@ -26,8 +26,8 @@ listaDeNomes.forEach(element => {
     console.log(element); // Exibe
 });
 
-
 console.log("------------ Exemplo 2 ------------");
+
 /* Método forEach 2
     
     array.forEach(function(element) {
