@@ -13,12 +13,12 @@ let listaDeNotas = [
     { nome: 'Vitor', nota: 100 },
     { nome: 'Gabriela', nota: 99 },
     { nome: 'Pablo', nota: 120 },
-    { nome: 'Giovana', nota: 77}
+    { nome: 'Giovana', nota: 77 }
 ];
 //console.log(listaDeNotas); Realizado para verificação do array 
 
 console.log("------------ Exemplo 1 ------------"); // Realizado somente para separar
-console.log ("Lista de alunos aprovados:");
+console.log("Lista de alunos aprovados:");
 
 /* Método filter 1
 
@@ -36,7 +36,7 @@ let alunosAprovadas = listaDeNotas.filter((user, index, array) => user.nota >= 1
 console.log(alunosAprovadas);
 
 console.log("------------ Exemplo 2 ------------"); // Realizado somente para separar
-console.log ("Lista de alunos reprovados:");
+console.log("Lista de alunos reprovados:");
 
 /* Método filter 2
 
@@ -46,14 +46,14 @@ console.log ("Lista de alunos reprovados:");
     const newVariable = array1.filter(new, this);
 
 */
-    // Utilizo a função callback para verificar se o aluno foi aprovado ou não (se a nota é >=100)
+// Utilizo a função callback para verificar se o aluno foi aprovado ou não (se a nota é >=100)
 // Troquei o "new" pelo nome de "reprovado"
 // Troquei o "credit" por "nota"
 function reprovado(user) {
     return user.nota < 100;
 }
 
-    // Declaro a variável "Reprovados" para juntar os alunos reprovados
+// Declaro a variável "Reprovados" para juntar os alunos reprovados
 // Troquei o "const" por let
 // Troquei o "newVariable" pelo nome "Reprovados"
 // Troquei o "array1" pelo nome do meu array "listaDeNotas" 
