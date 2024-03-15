@@ -1,10 +1,10 @@
-/* Utilizando o Find
+/* Utilizando o find
     Esse é um método usado para retornar o primeiro elemento de um array que 
     satisfaz a função de teste fornecida, caso nenhum elemento satisfaça a
     condição ele retorna "undefined".
 */
 
-// Criação do array - Frutas 
+// Crio o array - Frutas 
 let cestaDeFrutas = [
     { nome: "Banana", quantidade: 4 },
     { nome: "Morango", quantidade: 9 },
@@ -14,8 +14,9 @@ let cestaDeFrutas = [
 //console.log(cestaDeFrutas); Realizado para verificação do array 
 
 console.log("------------ Exemplo 1 ------------"); // Realizado somente para separar
+console.log("A fruta é:");
 
-/* Método Find 1
+/* Método find 1
 
     const newVariable = array.find(new => new.name == "?")
 
@@ -32,9 +33,9 @@ let Fruta = cestaDeFrutas.find(fruta => fruta.nome == "Laranja");
 console.log(Fruta);
 
 console.log("------------ Exemplo 2 ------------"); // Realizado somente para separar
+console.log("A fruta é:");
 
-
-/* Método Find 2
+/* Método find 2
 
     function new1(array) {
         return array.name === '?';
@@ -47,9 +48,9 @@ console.log("------------ Exemplo 2 ------------"); // Realizado somente para se
 // Troquei o "new1" pelo nome "frutaVerificação"
 // Troquei o "array" pelo nome do meu array "cestaDeFrutas" 
 // Troquei o "name" por "nome"
-// Troquei o "?" pela fruta que queria encontrar "Laranja" 
+// Troquei o "?" pela fruta que queria encontrar "Melão"
 function frutaVerificação(cestaDeFrutas) {
-    return cestaDeFrutas.nome === "Laranja";
+    return cestaDeFrutas.nome === "Melão";
 }
 
 // Declaro a variável "pFruta" 
