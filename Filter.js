@@ -1,7 +1,8 @@
 /* Ultilizando o Filter 
     Esse é um método que permite filtrar elementos de um array com base em uma 
     condição especificada. Ele cria um novo array com todos os elementos que 
-    foram filtrados.
+    foram filtrados. O filter não modifica o array original, ele retorna um 
+    novo array com os elementos filtrados, mantendo o array original inalterado.
 */
 
 // Criação do array - Notas
