@@ -14,6 +14,7 @@ let listaDeNomes = [
 
 console.log("------------ Exemplo 1 ------------"); // Realizado somente para separar
 
+
 /* Método forEach 1
 
     array.forEach(element => {
@@ -27,6 +28,7 @@ listaDeNomes.forEach(element => {
 });
 
 console.log("------------ Exemplo 2 ------------");
+
 
 /* Método forEach 2
     
