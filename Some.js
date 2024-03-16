@@ -12,8 +12,8 @@ let numerosTransferencia = [
 ];
 //console.log(numerosTransferencia); Realizado para verificação do array 
 
-console.log("------------ Exemplo 1 ------------") // Realizado somente para separar
-console.log("Algum elemento é igual a 50: ")
+console.log("------------ Exemplo 1 ------------"); // Realizado somente para separar
+console.log("Algum elemento é igual a 50: ");
 
 /* Método some 1
 
@@ -28,8 +28,8 @@ let numeroIgual = numerosTransferencia.some(element => element = 50);
 // Exibe a resposta 
 console.log(numeroIgual);
 
-console.log("------------ Exemplo 2 ------------") // Realizado somente para separar
-console.log("Algum elemento é um número negativo: ")
+console.log("------------ Exemplo 2 ------------"); // Realizado somente para separar
+console.log("Algum elemento é um número negativo: ");
 
 /* Método some 2
 
