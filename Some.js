@@ -20,6 +20,7 @@ console.log("Algum elemento é igual a 50: ");
     const newVariable = array.some(element => element = 50);
 
 */
+// Essa linha serve para verificar se pelo menos um elemento do array satisfaz uma determinada condição.
 // Troquei o "const" por let 
 // Troquei o "newVariable" pelo nome "numeroIgual"
 // Troquei o "array" pelo nome do meu array "numerosTransferencia"
@@ -36,6 +37,7 @@ console.log("Algum elemento é um número negativo: ");
     const newVariable1 = array.some((user, index, array) => user.name < 10);
 
 */
+// Essa linha serve para verificar se pelo menos um elemento do array satisfaz uma determinada condição.
 // Troquei o "const" por let 
 // Troquei o "newVariable1" pelo nome "numerosMenorQueDez"
 // Troquei o "array" pelo nome do meu array "mnumerosTrasferencia"
