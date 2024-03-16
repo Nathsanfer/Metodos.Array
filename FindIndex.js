@@ -52,7 +52,7 @@ console.log("A posição é:");
 // Troquei o "?" pelo nome que queria encontrar a posição "Sergio" 
 function cadePessoa(person) {
     return person.nome === 'Sergio';
-}
+};
 
 // Declaro a variável "Sergio" 
 // Troquei o "const" por let
