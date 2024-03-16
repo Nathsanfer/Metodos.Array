@@ -51,7 +51,7 @@ console.log("Lista de alunos reprovados:");
 // Troquei o "credit" por "nota"
 function reprovado(user) {
     return user.nota < 100;
-}
+};
 
 // Declaro a variável "Reprovados" para juntar os alunos reprovados
 // Troquei o "const" por let
