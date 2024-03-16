@@ -13,7 +13,7 @@ let listaDeNomes = [
 //console.log(listaDeNomes); Realizado para verificação do array 
 
 console.log("------------ Exemplo 1 ------------"); // Realizado somente para separar
-console.log ("Lista de nomes:");
+console.log("Lista de nomes:");
 
 /* Método forEach 1
 
@@ -22,13 +22,14 @@ console.log ("Lista de nomes:");
     });
 
 */
+// Essa linha serve para iterar sobre cada elemento do array e executar uma determinada ação para cada elemento.
 // Troquei o "array" pelo nome do meu array "listaDeNomes"
 listaDeNomes.forEach(element => {
     console.log(element); // Exibe
 });
 
 console.log("------------ Exemplo 2 ------------"); // Realizado somente para separar
-console.log ("Lista de nomes:");
+console.log("Lista de nomes:");
 
 /* Método forEach 2
     
@@ -37,6 +38,7 @@ console.log ("Lista de nomes:");
     });
 
 */
+// Essa linha serve para iterar sobre cada elemento do array e executar uma determinada ação para cada elemento.
 // Troquei o "array" pelo nome do meu array "listaDeNomes"
 listaDeNomes.forEach(function (element) {
     console.log(element); // Exibe
