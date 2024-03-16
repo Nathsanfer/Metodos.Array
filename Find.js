@@ -21,6 +21,7 @@ console.log("A fruta é:");
     const newVariable = array.find(new => new.name == "?")
 
 */
+// Essa linha serve para encontrar o primeiro elemento que satisfaz uma determinada condição. 
 // Troquei o "const" por let
 // Troquei o "newVariable" pelo nome "Fruta"
 // Troquei o "array" pelo nome do meu array "cestaDeFrutas" 
@@ -44,7 +45,7 @@ console.log("A fruta é:");
     const newVariable1 = array.find(new1, this);
 
 */
-//Utilizo a função callback para verificar aonde e se tem a fruta que desejo
+// Essa linha de código define uma função de callback que determinará a condição.
 // Troquei o "new1" pelo nome "frutaVerificação"
 // Troquei o "array" pelo nome do meu array "cestaDeFrutas" 
 // Troquei o "name" por "nome"
@@ -53,7 +54,7 @@ function frutaVerificação(cestaDeFrutas) {
     return cestaDeFrutas.nome === "Melão";
 };
 
-// Declaro a variável "pFruta" 
+// Essa linha cria um novo array que vai conter o primeiro elemento que satisfez a determinada condição.
 // Troquei o "const" por let
 // Troquei o "newVariable1" pelo nome "pFruta"
 // Troquei o "new1" pelo nome "frutaVerificação"
