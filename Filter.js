@@ -25,6 +25,7 @@ console.log("Lista de alunos aprovados:");
     const newVariable = array1.filter((user, index, array) => user.credit > 500);
 
 */
+// Essa linha cria um novo array contendo apenas os elementos que satisfazem uma determinada condição.
 // Troquei o "const" por let 
 // Troquei o "newVariale" pelo nome "alunosAprovados"
 // Troquei o "array1" pelo nome do meu array "listaDeNotas" 
@@ -46,14 +47,14 @@ console.log("Lista de alunos reprovados:");
     const newVariable = array1.filter(new, this);
 
 */
-// Utilizo a função callback para verificar se o aluno foi aprovado ou não (se a nota é >=100)
+// Essa linha de código define uma função de callback que determinará a condição.
 // Troquei o "new" pelo nome de "reprovado"
 // Troquei o "credit" por "nota"
 function reprovado(user) {
     return user.nota < 100;
 };
 
-// Declaro a variável "Reprovados" para juntar os alunos reprovados
+// Essa linha cria um novo array contendo apenas os elementos que satisfazem uma determinada condição.
 // Troquei o "const" por let
 // Troquei o "newVariable" pelo nome "Reprovados"
 // Troquei o "array1" pelo nome do meu array "listaDeNotas" 
