@@ -15,7 +15,7 @@ let numerosTransferencia = [
 console.log("------------ Exemplo 1 ------------") // Realizado somente para separar
 console.log("Algum elemento é igual a 50: ")
 
-/*
+/* Método some 1
 
     const newVariable = array.some(element => element = 50);
 
@@ -31,7 +31,7 @@ console.log(numeroIgual);
 console.log("------------ Exemplo 2 ------------") // Realizado somente para separar
 console.log("Algum elemento é um número negativo: ")
 
-/*
+/* Método some 2
 
     const newVariable1 = array.some((user, index, array) => user.name < 10);
 
