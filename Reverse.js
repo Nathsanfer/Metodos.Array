@@ -22,6 +22,7 @@ console.log("Nomes de algumas cores:");
     array1.reverse();
 
 */
+// Essa linha serve para inverter a ordem dos elementos do array.
 // Troquei o "array1" pelo nome do meu array1 "cores"
 cores.reverse();
 
@@ -46,6 +47,7 @@ let periódosDaHistória = [
     array2.reverse();
 
 */
+// Essa linha serve para inverter a ordem dos elementos do array.
 // Troquei o "array2" pelo nome do meu array2 "períodosDaHitória"
 periódosDaHistória.reverse();
 
