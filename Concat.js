@@ -28,10 +28,11 @@ console.log("Quais são os estados da região Sul e Sudeste?");
     const nemVariable = array1.concat(array2);
 
 */ 
+// Essa linha serve para conectar uma array com outra array
 // Troquei o "const" por let 
 // Troquei o "nemVarible" pelo nome "regiãoSulSudeste"
 // Troquei o "array1" pelo nome do meu array1 "estadosDaRegiãoSudeste"
- // Troquei o "array2" pelo nome do meu array2 "estadosDaRegiãoSul"
+// Troquei o "array2" pelo nome do meu array2 "estadosDaRegiãoSul"
 let regiãoSulSudeste = estadosDaRegiãoSudeste.concat(estadosDaRegiãoSul);
 
 // Exibe os estados da região Sul e Sudeste 
@@ -61,6 +62,7 @@ let meninosDaSala = [
     const nemVariable = array3.concat(array4);
 
 */ 
+// Essa linha serve para conectar uma array com outra array
 // Troquei o "const" por let 
 // Troquei o "nemVarible" pelo nome "salaPrimeiroA"
 // Troquei o "array3" pelo nome do meu array3 "meninasDaSala"
