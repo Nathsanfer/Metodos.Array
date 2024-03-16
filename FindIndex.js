@@ -5,7 +5,7 @@
     a condição, é retornado -1.
 */
 
-// Crio o array - Frutas 
+// Crio o array - Idades 
 let listaDeIdades = [
     { nome: 'Nathalia', idade: 16 },
     { nome: 'Luccas', idade: 11 },
