@@ -51,7 +51,7 @@ console.log("A fruta é:");
 // Troquei o "?" pela fruta que queria encontrar "Melão"
 function frutaVerificação(cestaDeFrutas) {
     return cestaDeFrutas.nome === "Melão";
-}
+};
 
 // Declaro a variável "pFruta" 
 // Troquei o "const" por let
