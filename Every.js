@@ -20,6 +20,7 @@ console.log("Todos os números são maiore que 0?");
     const newVariable = array.every(element => element > 0);
 
 */
+// Essa linha verifica se todos os elementos do array satisfazem a condição.
 // Troquei o "const" por let 
 // Troquei o "newVariable" pelo nome "todosMaioreQueZero"
 // Troquei o "array" pelo nome do meu array "numeros"
@@ -36,6 +37,7 @@ console.log("Todos os números são pares?");
     const newVariable = array.every(element => element % 2 === 0);
 
 */
+// Essa linha verifica se todos os elementos do array satisfazem a condição.
 // Troquei o "const" por let 
 // Troquei o "newVariable" pelo nome "todosPares"
 // Troquei o "array" pelo nome do meu array "numeros"
