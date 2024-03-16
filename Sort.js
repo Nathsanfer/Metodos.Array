@@ -16,7 +16,7 @@ let chamada = [
 console.log("------------ Exemplo 1 ------------"); // Realizado somente para separar
 console.log("Chamada do 1 ao 5:");
 
-/* Método sort 2
+/* Método sort 1
 
     function new(a, b) {
         return a.credit - b.credit;
@@ -25,12 +25,14 @@ console.log("Chamada do 1 ao 5:");
     array.sort(new);
 
 */
+// Essa linha de código define uma função de callback que determinará a condição.
 // Troquei o "new" pelo nome "numerosChamada" 
 // Troquei o "credit" por "numero"
 function numerosChamada(a, b) {
     return a.numero - b.numero;
 }
 
+// Essa linha serve para ordenar os elementos de um array com base em uma função callback.
 // Troquei o "array" pelo nome do meu array "chamada"
 // Troquei o "new" pelo nome "numerosChamada" 
 chamada.sort(numerosChamada);
@@ -50,12 +52,14 @@ console.log("Chamada do 5 ao 1:");
     array.sort(new1);
 
 */
+// Essa linha de código define uma função de callback que determinará a condição.
 // Troquei o "new" pelo nome "numerosChamada1" 
 // Troquei o "credit" por "numero"
 function numerosChamada1(a, b) {
     return b.numero - a.numero;
 }
 
+// // Essa linha serve para ordenar os elementos de um array com base em uma função callback.
 // Troquei o "array" pelo nome do meu array "chamada"
 // Troquei o "new" pelo nome "numerosChamada1" 
 chamada.sort(numerosChamada1);
