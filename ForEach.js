@@ -27,7 +27,7 @@ listaDeNomes.forEach(element => {
     console.log(element); // Exibe
 });
 
-console.log("------------ Exemplo 2 ------------");
+console.log("------------ Exemplo 2 ------------"); // Realizado somente para separar
 console.log ("Lista de nomes:");
 
 /* Método forEach 2
