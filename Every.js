@@ -13,7 +13,7 @@ let numeros = [
 //console.log(numeros); Realizado para verificação do array 
 
 console.log("------------ Exemplo 1 ------------"); // Realizado somente para separar
-console.log("Todos os números são maiore que 0?")
+console.log("Todos os números são maiore que 0?");
 
 /* Método every 1
 
@@ -29,7 +29,7 @@ let todosMaioresQueZero = numeros.every(element => element > 0);
 console.log(todosMaioresQueZero);
 
 console.log("------------ Exemplo 2 ------------"); // Realizado somente para separar
-console.log("Todos os números são pares?")
+console.log("Todos os números são pares?");
 
 /* Método every 2
 
