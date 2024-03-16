@@ -23,6 +23,7 @@ console.log("A posição é:");
     const newVariable = array.findIndex((user, index, array) => user.name === '?');
 
 */
+// Essa linha serve para encontrar o índice do primeiro elemento que satisfaz uma determinada condição.
 // Troquei o "const" por let
 // Troquei o "newVariable" pelo nome "Luccas"
 // Troquei o "array" pelo nome do meu array "listaDeIdades"
@@ -45,7 +46,7 @@ console.log("A posição é:");
     const newVariable1 = array.findIndex(new1, this);
 
 */
-//Utilizo a função callback para verificação de se existe um item como o Luccas no array
+// Essa linha de código define uma função de callback que determinará a condição.
 // Troquei o "new1" pelo nome "frutaVerificação"
 // Troquei o "array" pelo nome do meu array "cestaDeFrutas" 
 // Troquei o "name" por "nome"
@@ -54,7 +55,7 @@ function cadePessoa(person) {
     return person.nome === 'Sergio';
 };
 
-// Declaro a variável "Sergio" 
+// Essa linha cria um novo array que vai conter o índice do primeiro elemento que satisfez a determinada condição.
 // Troquei o "const" por let
 // Troquei o "newVariable1" pelo nome "Sergio"
 // Troquei o "new1" pelo nome "cadePessoa"
